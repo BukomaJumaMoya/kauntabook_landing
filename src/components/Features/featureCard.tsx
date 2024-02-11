@@ -7,7 +7,7 @@ type featureItemProps = {
   icon: string;
 };
 
-function featureCard({ title, description, icon }: featureItemProps) {
+function FeatureCard({ title, description, icon }: featureItemProps) {
   const [hovered, setHovered] = useState(false);
   return (
     <div
@@ -30,4 +30,4 @@ function featureCard({ title, description, icon }: featureItemProps) {
   );
 }
 
-export default featureCard;
+export default FeatureCard;

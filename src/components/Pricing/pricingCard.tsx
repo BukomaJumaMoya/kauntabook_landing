@@ -30,7 +30,7 @@ function PrincingCard({ title, description, pricing }: pricingItemProps) {
         <div className="border bg-black" />
 
         <h1 className="text-black regular-14 uppercase mt-4">
-          What's included
+          What&apos;s included
         </h1>
         <div className="flex flex-row gap-2 justify-center mt-2 ">
           <div className="regular-14 text-green-90 ">✔️</div>
